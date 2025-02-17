@@ -1,0 +1,150 @@
+.banner-img {
+  margin-top: 60px;
+}
+
+.home-page h1 {
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between !important;
+}
+
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: calc(25% - 20px) !important;
+  margin: 10px!important;
+}
+
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+
+.home-page button {
+  border-radius: 8px;
+  width: 105px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-page .gemini-icon{
+  width: 60px;
+}
+
+.home-page .card-text {
+  color: black;
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+}
+
+/* Filters Styles */
+
+.filters h4 {
+  margin-top: 100px;
+  color: black !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 2px;
+}
+
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: black;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.loadmore {
+  color: black;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+/* Media Queries */
+
+/* Mobile Styles (max-width: 767px) */
+
+@media (max-width: 767px) {
+  .home-page .card {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .card-button {
+    width: 40% !important;
+    height: 80px;
+    font-size: 12px;
+    margin: 10px 32px  
+  }
+
+  .filter-button {
+    margin-top: 15px;
+  }
+
+  .filters h4 {
+    margin-top: 50px;
+  }
+
+  .filters button {
+    margin-top: 10px;
+  }
+}
+
+/* Tablet Styles (min-width: 768px and max-width: 1199px) */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .home-page .card {
+    width: calc(50% - 20px) !important;
+    margin-bottom: 20px;
+  }
+
+  .card-button {
+    width: 40% !important;
+    height: 80px;
+    font-size: 12px;
+    margin: 10px 15px  !important;  /*Add this line */ 
+   /* display: block  !important; /* Add this line */
+     
+  }
+
+  .filter-button {
+    margin-top: 15px;
+  }
+
+  .filters h4 {
+    margin-top: 70px;
+  }
+
+  .filters button {
+    margin-top: 15px;
+  }
+}

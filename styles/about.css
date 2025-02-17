@@ -1,0 +1,66 @@
+.about-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+ 
+  
+  .about-us {
+    padding: 2em;
+     text-align: center;
+  }
+  
+  .about-us h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  .about-us img{
+    width: 800px;
+    height: 500px;
+ }
+  
+  .team {
+    padding: 2em;
+  }
+  .team h2{
+    text-align: center;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
